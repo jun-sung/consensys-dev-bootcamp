@@ -1,4 +1,4 @@
-# Consensys Blockchain Developer Bootcamp 2020
+# [Consensys Blockchain Developer Bootcamp 2020](https://junsunglee.com/ConsenSys-Blockchain-Developer-Bootcamp/)
 
 Below are the projects and dapps I completed as part of the 2020 cohort.
 
@@ -37,7 +37,7 @@ Below are the projects and dapps I completed as part of the 2020 cohort.
     - Sent transaction
     - Verified balance
 
-- Created private blockchain with proof of authority consensus mechanism (geth-poa)
+- Created private blockchain with proof-of-authority consensus mechanism (geth-poa)
     - Implemented native geth proof-of-authority protocol clique
     - Configured clique via puppeth for creating custom genesis blocks
     - Used bootnode to act as the router/hub between nodes
@@ -72,5 +72,5 @@ Below are the projects and dapps I completed as part of the 2020 cohort.
 
 ### [Exercise: SupplyChain](https://github.com/jun-sung/consensys-dev-bootcamp/tree/main/supply-chain-exercise-jun-sung)
 
-- Imitated standard supplychain functions with `ForSale`, `Sold`, `Shipped`, `Received`
+- Imitated standard supply chain functions with `ForSale`, `Sold`, `Shipped`, `Received`
 - Implemented through `mapping`, `struct`, `enum`, `event`, `modifier`
