@@ -5,33 +5,33 @@ Below are the projects and dapps I completed as part of the 2020 cohort.
 
 ## [Coding my own Blockchain from Scratch in Python3 - blockchain.py](https://github.com/jun-sung/consensys-dev-bootcamp/blob/main/blockchain.py)
 
-- Implemented a simple Proof-of-Work algorithm similar to HashCash
-- Deployec Python Flask to communicate with blockchain through http requests
-- Deployed Postman to interact with blockchain (create new transaction, mine new block, return full blockchain)
-- Implemented consensus algorithm by checking chains in other nodes and finding the longest valid chain
+- Implemented simple proof-of-work algorithm similar to HashCash
+- Deployed Python Flask to communicate with blockchain via REST API
+- Used Postman to interact with blockchain (create new transaction, mine new block, return full blockchain)
+- Introduction to consensus algorithms (checking for longest chain)
 
 
 ## [Generating Ethereum Accounts in Javascript](https://github.com/jun-sung/consensys-dev-bootcamp/tree/main/ethereum-address-generator-js)
 
-- Learning public key cryptography and digital signatures
-- Generate a private key, derive public keys from the private key and verify associated accounts
+- Introduction to public key cryptography and digital signatures
+- Generated a private key, derived public keys from the private key and verified associated accounts
 
 ## [Using Geth (Go-Ethereum)](https://github.com/jun-sung/consensys-dev-bootcamp/tree/main/geth-poa-tutorial-master)
 
 - Geth (Go-Ethereum) is a command line interface for running a full Ethereum node implemented in Go
-- Geth is used to mine real Ether, transfer funds between addresses, create contracts and send transactions, and explore block history
-- Learned my way around the geth javascript console ($ geth console)
+- Used Geth to mine real Ether, transfer funds between addresses, create contracts, send transactions, and explore block history
+- Learned to navigate the geth javascript console
 - Created private blockchain with proof of work consensus mechanism (test-private-blockchain)
 
     #### [genesis.json](https://github.com/jun-sung/consensys-dev-bootcamp/blob/main/genesis.json)
     - `config`: defines settings for private blockchain
     - `chainId`: identifies blockchain
-    - `alloc`: allows creation of addresses and fills account with ether upon initialization of blockchain - left empty in order to fill accounts by mining ether
-    - `difficulty`: indicates how difficult to discover valid hash of block - defines mining target - calculated according to previous block difficulty and timestamp - difficulty indicates how many average calculations miner will have to complete to find block - value fluctuates to maintain target block generation time
-    - `extraData`: optional 32 byte value to add information
-    - `gasLimit`: sets chain-wide limit of gas expenditure per block
+    - `alloc`: allows creation of addresses and fills accounts with Ether when the blockchain is initialized (left empty to fill accounts with mined Ether)
+    - `difficulty`: defines mining target for discovering a block hash, building on previous block's timestamp and difficulty (value fluctuates to maintain target)
+    - `extraData`: optional 32-byte value to embed additional info
+    - `gasLimit`: sets chain-wide limit on gas expenditure per block
     - `parentHash`: keccak256 hash of parent block's header
-    - `timestamp`: output of Unix time() function at block's creation (in calculating difficulty) allows verification of order of blocks in the chain
+    - `timestamp`: output of Unix `time()` at block's creation (calculated difficulty), allowing verification of block order on chain
     - Created new account
     - Mined private chain
     - Sent transaction
@@ -40,12 +40,12 @@ Below are the projects and dapps I completed as part of the 2020 cohort.
 - Created private blockchain with proof of authority consensus mechanism (geth-poa)
     - Implemented native geth proof-of-authority protocol clique
     - Configured clique via puppeth for creating custom genesis blocks
-    - Used bootnode to act as a router/hub where all nodes pass information and receive information from this node
-    - Launched node1 with genesis block (node1 is a mining node)
+    - Used bootnode to act as the router/hub between nodes
+    - Launched node1 (mining node) with genesis block
     - Launched node2 and node3 to interact with blockchain
-    - Sent transactions from nodes to each other
+    - Sent and verified transactions between nodes
 
----
+
 
 ## Writing Smart Contracts
 
