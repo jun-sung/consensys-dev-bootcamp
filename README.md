@@ -1,7 +1,6 @@
 # [Consensys Blockchain Developer Bootcamp 2020](https://junsunglee.com/ConsenSys-Blockchain-Developer-Bootcamp/)
 
-Below are the projects and dapps I completed as part of the 2020 cohort.
-
+![[ConsenSys Certified Ethereum Developer](Certificate.png "ConsenSys Certified Ethereum Developer")](https://courses.consensys.net/certificates/w9trgfa8fa)
 
 ## [Coding my own Blockchain from Scratch in Python3 - blockchain.py](https://github.com/jun-sung/consensys-dev-bootcamp/blob/main/blockchain.py)
 
@@ -9,7 +8,6 @@ Below are the projects and dapps I completed as part of the 2020 cohort.
 - Deployed Python Flask to communicate with blockchain via REST API
 - Used Postman to interact with blockchain (create new transaction, mine new block, return full blockchain)
 - Introduction to consensus algorithms (checking for longest chain)
-
 
 ## [Generating Ethereum Accounts in Javascript](https://github.com/jun-sung/consensys-dev-bootcamp/tree/main/ethereum-address-generator-js)
 
@@ -44,7 +42,6 @@ Below are the projects and dapps I completed as part of the 2020 cohort.
     - Launched node1 (mining node) with genesis block
     - Launched node2 and node3 to interact with blockchain
     - Sent and verified transactions between nodes
-
 
 
 ## Writing Smart Contracts
