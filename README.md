@@ -2,7 +2,7 @@
 
 ![ConsenSys Certified Ethereum Developer](Certificate.png "ConsenSys Certified Ethereum Developer")
 
-## [Coding my own Blockchain from Scratch in Python3 - blockchain.py](https://github.com/jun-sung/consensys-dev-bootcamp/blob/main/blockchain.py)
+## [Coding Python3 Blockchain From Scratch - blockchain.py](https://github.com/jun-sung/consensys-dev-bootcamp/blob/main/blockchain.py)
 
 - Implemented simple proof-of-work algorithm similar to HashCash
 - Deployed Python Flask to communicate with blockchain via REST API
