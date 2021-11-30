@@ -1,6 +1,6 @@
 # [Consensys Blockchain Developer Bootcamp 2020](https://junsunglee.com/ConsenSys-Blockchain-Developer-Bootcamp/)
 
-![[ConsenSys Certified Ethereum Developer](Certificate.png "ConsenSys Certified Ethereum Developer")](https://courses.consensys.net/certificates/w9trgfa8fa)
+![ConsenSys Certified Ethereum Developer](Certificate.png "ConsenSys Certified Ethereum Developer")
 
 ## [Coding my own Blockchain from Scratch in Python3 - blockchain.py](https://github.com/jun-sung/consensys-dev-bootcamp/blob/main/blockchain.py)
 
